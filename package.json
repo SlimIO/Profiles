@@ -21,7 +21,9 @@
         "manager"
     ],
     "files": [
-        "index.js"
+        "index.js",
+        "index.d.ts",
+        "src"
     ],
     "author": "SlimIO",
     "license": "MIT",
