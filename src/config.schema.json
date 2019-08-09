@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "properties": {
+        "profiles": {
+            "patternProperties": {
+                "[a-zA-Z0-9_-]": {
+                    "type": "object",
+                    "additionalProperties": true,
+                    "properties": {
+                        "interval": {
+                            "type": "number",
+                            "description": "The time delay to execute the given profile",
+                            "default": 1000
+                        },
+                        "active": {
+                            "type": "boolean",
+                            "description": "Enable/Disable a profile",
+                            "default": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
