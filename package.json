@@ -32,7 +32,7 @@
     },
     "homepage": "https://github.com/SlimIO/Profiles#readme",
     "dependencies": {
-        "@slimio/config": "^0.13.0",
+        "@slimio/config": "^0.14.1",
         "@slimio/is": "^1.5.1",
         "@slimio/safe-emitter": "^1.0.6",
         "@slimio/scheduler": "^0.7.0",
