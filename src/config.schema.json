@@ -9,7 +9,7 @@
                     "additionalProperties": true,
                     "properties": {
                         "interval": {
-                            "type": "number",
+                            "type": ["number", "string"],
                             "description": "The time delay to execute the given profile",
                             "default": 1000
                         },
