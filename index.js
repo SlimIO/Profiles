@@ -50,7 +50,7 @@ async function profiles(configPath, predicate = null) {
         autoReload: true,
         writeOnSet: true
     });
-    await cfg.read();
+    await cfg.read({ profiles: {} });
 
     // Verify profiles section
     {
