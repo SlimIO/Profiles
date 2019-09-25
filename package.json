@@ -1,6 +1,6 @@
 {
     "name": "@slimio/profiles",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Addon profiles manager",
     "main": "index.js",
     "scripts": {
