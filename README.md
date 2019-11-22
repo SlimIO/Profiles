@@ -1,7 +1,10 @@
 # Profiles
-![version](https://img.shields.io/badge/version-0.1.0-blue.svg)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SlimIO/is/commit-activity)
+![version](https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/SlimIO/Profiles/master/package.json&query=$.version&label=Version)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/SlimIO/Profiles/commit-activity)
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
+![size](https://img.shields.io/github/languages/code-size/SlimIO/Profiles)
+![dep](https://img.shields.io/david/SlimIO/Profiles)
+![known vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/SlimIO/Profiles)
 
 Addon profiles manager.
 
