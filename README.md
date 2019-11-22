@@ -22,8 +22,8 @@ $ yarn add @slimio/profiles
 
 ## Usage example
 ```js
-const profilesLoader = require("@slimio/profiles");
-const Addon = require("@slimio/addon");
+import profilesLoader from "@slimio/profiles";
+import Addon from "@slimio/addon";
 
 const CPU = new Addon("cpu");
 let profiles;
@@ -35,14 +35,14 @@ CPU.on("start", async() => {
         console.log(payload);
     });
 
-    CPU.ready();
+    await CPU.ready();
 });
 
 CPU.on("stop", () => {
     profiles.free(); // use free() to cleanup everything
 });
 
-module.exports = CPU;
+export default CPU;
 ```
 
 ## API
