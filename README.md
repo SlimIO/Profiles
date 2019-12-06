@@ -5,7 +5,7 @@
 ![size](https://img.shields.io/github/languages/code-size/SlimIO/Profiles)
 ![dep](https://img.shields.io/david/SlimIO/Profiles)
 ![known vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/SlimIO/Profiles)
-[![Build Status](https://travis-ci.com/SlimIO/Profiles.svg?branch=master)](https://travis-ci.com/SlimIO/Profiles)
+[![Build Status](https://travis-ci.com/SlimIO/Profiles.svg?branch=master)](https://travis-ci.com/SlimIO/Profiles) [![Greenkeeper badge](https://badges.greenkeeper.io/SlimIO/Profiles.svg)](https://greenkeeper.io/)
 
 Addon profiles manager.
 
